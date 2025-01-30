@@ -1,0 +1,175 @@
+Question 1
+Write an if-else statement that determines whether the points variable is outside 
+the range of 1 to 10. If the variable’s value is outside this range it should display 
+“Invalid points.” Otherwise, it should display “Valid points.”
+  
+if points < 1 or points > 10:
+print ('Invalid points')
+else:
+print ('Valid points')
+
+    if points < 1 and points > 10:
+    print ('Invalid points')
+    else:
+    print ('Valid points')
+
+    if points > 1 or points < 10:
+    print ('Invalid points')
+    else:
+    print ('Valid points')
+
+    none of the above
+
+Question 2
+A Boolean variable can reference one of two values which are
+  
+    T or F 
+    yes or no 
+True or False
+    Y or N
+
+Question 3
+A(n) __________ structure is a logical design that controls the order in which a set of statements execute.
+  
+    sequence
+    function
+control
+    iteration
+
+Question 4
+In Python the __________ symbol is used as the equality operator.
+  
+    <=
+    != 
+    <> 
+==
+
+Question 5
+In Python the __________ symbol is used as the not-equal-to operator.
+  
+!= 
+    <=
+    ==
+    <>
+
+Question 6
+Multiple Boolean expressions can be combined by using a logical operator to create __________ expressions.
+  
+    sequential
+    logical  
+compound
+    mathematical
+
+Question 7
+The decision structure that has two possible paths of execution is known as
+  
+dual alternative 
+    double alternative 
+    single alternative  
+    two alternative
+
+Question 8
+What does the following expression mean?
+x <= y
+  
+    x is less than y 
+    x is greater than y
+x is less than or equal to y  
+    x is greater than or equal to y
+
+Question 9
+What is the result of the following Boolean expression, given that x = 5, y = 3, and z = 8?
+x < y and z > x
+  
+False 
+    True 
+    5 
+    8
+
+Question 10
+What is the result of the following Boolean expression, given that x = 5, y = 3, and z= 8?
+not (x < y or z > x) and y < z
+  
+    True
+    8
+    5
+False
+
+Question 11
+What is the result of the following Boolean expression, given that x = 5, y = 3, and z = 8?
+x < y or z > x
+  
+    8 
+    False 
+True 
+    5
+
+Question 12
+When using the __________ logical operator, both subexpressions must be true for the compound expression to be true.
+  
+    not  
+    or
+and
+    either or or and
+
+Question 13
+When using the __________ logical operator, one or both of the subexpressions must be true for the compound expression to be true.
+  
+or
+    maybe
+    not
+    and
+
+Question 14
+Which logical operators perform short-circuit evaluation?
+  
+    not, and
+    or, not
+    and, or, not
+or, and
+
+Question 15
+Which of the following is the correct if clause to determine whether choice is anything other than 10?
+  
+    if choice <> 10:
+    if not(choice < 10 and choice > 10):
+    if choice = 10
+if choice != 10:
+ 
+Question 16
+Which of the following is the correct if clause to determine whether y is in the range 10 through 50, inclusive?
+  
+if y >= 10 and y <= 50:
+    if 10 < y or y > 50:
+    if y >= 10 or y <= 50:
+    if 10 > y and y < 50:
+
+Question 17
+Write nested decision structures that perform the following: If amount1 is greater than 10 and amount2 
+is less than 100, display the lesser of amount1 and amount2.
+    
+    if amount1 < 10 and amount2 > 100:
+    if amount1 > amount2:
+    print (amount1)
+    elif amount2 > amount1:
+    print (amount2)
+    else:
+    print('Both values are the same.')
+
+    if amount1 > 10 and amount2 < 100:
+    if amount1 < amount2:
+    print (amount1)
+    elif amount2 < amount1:
+    print (amount2)
+    else:
+    print('Both values are the same.')
+ 
+if amount1 > 10 and amount2 < 100:
+if amount1 > amount2:
+print (amount1)
+elif amount2 > amount1:
+print (amount2)
+else:
+print('Both values are the same.')
+
+    none of the above
