@@ -1,0 +1,179 @@
+Question 1: A variable used to keep a running total is called a(n)
+
+* accumulator
+total
+running total
+summer
+
+Question 2: A(n) __________ structure is a structure that causes a statement or a set of statements to execute repeatedly.
+
+sequence
+decision
+module
+* repetition
+
+Question 3: In Python, a comma-separated sequence of data items that are enclosed in a set of brackets is called
+
+sequence
+variable
+value
+* list
+
+Question 4: In Python, the variable in the for clause is referred to as the __________ because it is the target of an assignment at the beginning of each loop iteration.
+
+* target variable
+loop variable
+for variable
+count variable
+
+Question 5: The first operation is called the __________ and its purpose is to get the first input value that will be tested by the validation loop.
+
+*priming read
+first input
+loop set read
+loop validation
+
+Question 6: What are the values that the variable num contains through the iterations of the following for loop?
+for num in range(4):
+
+1, 2, 3, 4
+0, 1, 2, 3, 4
+1, 2, 3
+* 0, 1, 2, 3
+
+Question 7: What are the values that the variable num contains through the iterations of the following for loop?
+for num in range(2, 9, 2):
+
+2, 3, 4, 5, 6, 7, 8, 9
+2, 5, 8
+* 2, 4, 6, 8
+1, 3, 5, 7, 9
+
+Question 8: What does the following program do?
+
+student = 1
+while student <= 3:
+    total = 0
+    for score in range(1, 4):
+        score = int(input("Enter test score: "))
+        total += score
+    average = total/3
+    print("Student ", student, "average: ", average)
+    student += 1
+
+It accepts 4 test scores for 3 students and outputs the average of the 12 scores.
+* It accepts 3 test scores for each of 3 students and outputs the average for each student.
+It accepts 4 test scores for 2 students, then averages and outputs all the scores.
+It accepts one test score for each of 3 students and outputs the average of the 3 scores.
+
+Question 9: What type of loop structure repeats the code based on the value of Boolean expression?
+
+* condition-controlled loop
+number-controlled loop
+count-controlled loop
+Boolean-controlled loop
+
+Question 10: What type of loop structure repeats the code a specific number of times?
+
+condition-controlled loop
+number-controlled loop
+* count-controlled loop
+Boolean-controlled loop
+
+Question 11: What will be displayed after the following code is executed?
+
+total = 0
+for count in range(4,6):
+    total += count
+    print(total)
+
+*4
+ 9
+
+4
+5
+6
+
+4
+5
+
+9
+
+Question 12: What will be displayed after the following code is executed?
+
+count = 4
+while count < 12:
+    print("counting")
+    count = count + 2
+
+counting counting counting counting counting
+
+* counting
+  counting
+  counting
+  counting
+
+counting
+counting
+
+counting
+counting
+counting
+
+Question 13: What will be displayed after the following code is executed?
+
+for num in range(0, 20, 5):
+    num += num
+print(num)
+
+* 30
+25
+0 5 10 15 20
+5 10 15
+
+Question 14: What will be displayed after the following code is executed?
+
+total = 0
+for count in range(1,4):
+    total += count
+print(total)
+
+1
+3
+6
+ 
+5
+ 
+14
+ 
+* 6
+ 
+Question 15: When will the following loop terminate?
+
+while keep_going != 999:
+
+when keep_going refers to a value less than 999
+when keep_going refers to a value greater than 999
+* when keep_going refers to a value equal to 999
+when keep_going refers to a value not equal to 999
+
+Question 16: Which of the following represents an example to calculate the sum of numbers (that is, an accumulator), given that the number is stored in the variable number and the total is stored in the variable total?
+
+total + number = total
+number += number
+* total += number
+total = number
+
+Question 17: Which of the following is not an augmented assignment operator?
+
+*=
+/=
++=
+* <=
+
+Question 18: __________ is the process of inspecting data that has been input into a program in order to ensure that the data is valid before it is used in a computation.
+
+* Input validation
+Correcting data
+Data validation
+Correcting input
