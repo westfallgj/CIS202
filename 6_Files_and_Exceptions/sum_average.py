@@ -10,24 +10,31 @@
 
     Outputs:
 	    Sum and Average of all numbers.
-        IOError and/or ValueEttor exceptions when raised.
+        IOError and/or ValueError exceptions, when raised.
 """
 # Declare varaibles for sum
 numSum = numItems = 0
 
-# Open input file: numbers.text
-inputFile = open("numbers.txt", 'r')
+try:
+    # Open input file: numbers.text
+    inputFile = open("numbers.txt", 'r')
 
-# Grab the individual numbers
-#for num in workingNumbers:
-for num in inputFile:
-    num = num.rstrip("\n")
-    numSum += float(num)
-    numItems += 1
 
-print(f"The sum of the numbers is: {numSum:.2f}")
+    # Grab the individual numbers
+    #for num in workingNumbers:
+    for num in inputFile:
+        num = num.rstrip("\n")
+        numSum += float(num)
+        numItems += 1
 
-print(f"The average of the numbers is: {(numSum/numItems):.2f}")
+    print(f"The sum of the numbers is: {numSum:.2f}")
 
-# Close input file
-inputFile.close()
+    print(f"The average of the numbers is: {(numSum/numItems):.2f}")
+
+    # Close input file
+    inputFile.close()
+
+except IOError:
+    print("IOError: the numbers.txt file cannot be found in this directory.")
+except ValueError:
+    print("Value error: there is a problem with one or more values from inputFile.")
