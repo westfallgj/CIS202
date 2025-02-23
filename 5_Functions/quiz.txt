@@ -1,0 +1,379 @@
+Question 1
+4 / 4 pts
+A __________ constant is a name that references a value that cannot be changed while the program runs.
+  
+string
+
+  
+local
+
+  
+keyword
+
+  
+global
+
+ 
+Question 2
+4 / 4 pts
+A __________ variable is accessible to all the functions in a program file.
+  
+global
+
+  
+keyword
+
+  
+local
+
+  
+string
+
+ 
+Question 3
+5 / 5 pts
+A __________ variable is created inside a function.
+  
+constant
+
+  
+local
+
+  
+global
+
+  
+named constant
+
+ 
+Question 4
+4 / 4 pts
+A set of statements that belong together as a group and contribute to the function definition is known as a
+  
+parameter
+
+  
+block
+
+  
+return
+
+  
+header
+
+ 
+Question 5
+4 / 4 pts
+A value-returning function is
+  
+a single statement that performs a specific task
+
+  
+a function that will return a value back to the part of the program that called it
+
+  
+a function that receives a value when called
+
+  
+called when you want the function to stop
+
+ 
+Question 6
+5 / 5 pts
+A(n) __________ is a variable that receives an argument that is passed into a function.
+  
+global variable
+
+  
+named constant
+
+  
+parameter
+
+  
+argument
+
+ 
+Question 7
+5 / 5 pts
+A(n) __________ is any piece of data that is passed into a function when the function is called.
+  
+global variable
+
+  
+local variable
+
+  
+parameter
+
+  
+argument
+
+ 
+Question 8
+4 / 4 pts
+In a value-returning function, the value of the expression that follows the keyword __________ will be sent back to the part of the program that called the function.
+  
+def
+
+  
+result
+
+  
+return
+
+  
+sent
+
+ 
+Question 9
+5 / 5 pts
+It is recommended that programmers avoid using __________ variables in a program whenever possible.
+  
+local
+
+  
+global
+
+  
+keyword
+
+  
+string
+
+ 
+Question 10
+5 / 5 pts
+The Python standard library's __________ module contains numerous functions that can be used in mathematical calculations.
+  
+math
+
+  
+string
+
+  
+number
+
+  
+random
+
+ 
+Question 11
+5 / 5 pts
+The __________ of a local variable is the function in which that variable is created.
+  
+space
+
+  
+scope
+
+  
+global reach
+
+  
+definition
+
+ 
+Question 12
+5 / 5 pts
+The _____________ keyword is ignored by the Python interpreter and can be used as a placeholder for code that will be written later.
+  
+skip
+
+  
+pause
+
+  
+placeholder
+
+  
+pass
+
+ 
+Question 13
+5 / 5 pts
+The first line in a function definition is known as the function
+  
+parameter
+
+  
+header
+
+  
+block
+
+  
+return
+
+ 
+Question 14
+5 / 5 pts
+What will be displayed after the following code is executed?
+def pass_it(x, y):
+    z = x*y
+    result = get_result(z)
+    return(result)
+ 
+def get_result(number):
+    z = number + 2
+    return(z)
+ 
+num1 = 3
+num2 = 4
+answer = pass_it(num1, num2)
+print(answer)
+  
+12
+
+  
+9
+
+  
+14
+
+  
+Nothing, this code contains a syntax error.
+
+ 
+Question 15
+5 / 5 pts
+What will be the output after the following code is executed?
+def pass_it(x, y):
+    z = x , ", " , y
+ 
+num1 = 4
+num2 = 8
+answer = pass_it(num1, num2)
+print(answer)
+  
+8, 4
+
+  
+4, 8
+
+  
+48
+
+  
+None 
+
+ 
+Question 16
+5 / 5 pts
+What will be the output after the following code is executed?
+def pass_it(x, y):
+    z = y**x
+    return(z)
+ 
+num1 = 3
+num2 = 4
+answer = pass_it(num1, num2)
+print(answer)
+  
+64
+
+  
+12
+
+  
+None
+
+  
+81
+
+ 
+Question 17
+5 / 5 pts
+What will be the output after the following code is executed?
+ 
+def pass_it(x, y):
+    z = x + ", " + y
+    return(z)
+ 
+name2 = "Julian"
+name1 = "Smith"
+fullname = pass_it(name1, name2)
+print(fullname)
+  
+Smith Julian
+
+  
+Julian Smith
+
+  
+Smith, Julian
+
+  
+Julian, Smith
+
+ 
+Question 18
+5 / 5 pts
+What will display after the following code is executed?
+def main():
+    print("The answer is", magic(5))
+ 
+def magic(num):
+    answer = num + 2 * 10
+    return answer
+ 
+main()
+  
+70
+
+  
+100
+
+  
+25
+
+  
+The statement will cause a syntax error.
+
+ 
+Question 19
+5 / 5 pts
+Whic of the following will assign a random integer in the range of 1 through 50 to the variable number?
+  
+number = random.randint(1, 50)
+
+  
+number = random(range(1, 50))
+
+  
+random(1, 50) = number
+
+  
+randint(1, 50) = number
+
+ 
+Question 20
+5 / 5 pts
+Which of the following functions returns the largest integer that is less than or equal to its argument?
+  
+floor
+
+  
+ceil
+
+  
+lesser
+
+  
+greater
+
+ 
+Question 21
+5 / 5 pts
+Which of the following statements causes the interpreter to load the contents of the random module into memory?
+  
+upload random
+
+  
+download random
+
+  
+load random
+
+  
+import random

@@ -1,0 +1,327 @@
+Question 1
+5.2 / 5.2 pts
+A single piece of data within a record is called a
+  
+delimiter
+
+  
+field
+
+  
+variable
+
+  
+data bit
+
+ 
+Question 2
+5.2 / 5.2 pts
+A(n) __________ access file is also known as a direct access file.
+  
+random
+
+  
+numbered
+
+  
+sequential
+
+  
+text
+
+ 
+Question 3
+5.5 / 5.5 pts
+Given that the customer file references a file object, and the file was opened using the 'w' mode specifier, how would you write the string 'Mary Smith' to the file?
+  
+customer.write('Mary Smith')
+
+  
+customer.write('w', 'Mary Smith')
+
+  
+customer file.write('Mary Smith')
+
+  
+customer.input('Mary Smith')
+
+ 
+Question 4
+5.2 / 5.2 pts
+What is the process of retrieving data from a file called?
+  
+reading data
+
+  
+reading input
+
+  
+retrieving data
+
+  
+getting data
+
+ 
+Question 5
+5.5 / 5.5 pts
+What will be the output after the following code is executed and the user enters 75 and -5 at the first two prompts?
+def main():
+    try:
+        total = int(input("Enter total cost of items? "))
+        num_items = int(input("Number of items "))
+        average = total / num_items
+    except ZeroDivisionError:
+        print('ERROR: cannot have 0 items')
+    except ValueError:
+        print('ERROR: number of items cannot be negative')
+ 
+if __name__ == '__main__':
+    main()
+  
+Nothing; there is no print statement to display average. The ValueError will not catch the error.
+
+  
+ERROR: number of items can't be negative
+
+  
+ERROR: cannot have 0 items
+
+  
+ERROR: cannot have 0 items
+ERROR: number of items can't be negative
+
+ 
+Question 6
+5.5 / 5.5 pts
+What will be the output after the following code is executed and the user enters 75 and 0 at the first two prompts?
+def main():
+    try:
+        total = int(input("Enter total cost of items? "))
+        num_items = int(input("Number of items "))
+        average = total / num_items
+    except ZeroDivisionError:
+        print('ERROR: cannot have 0 items')
+    except ValueError:
+        print('ERROR: number of items cannot be negative')
+ 
+if __name__ == '__main__':
+    main()
+  
+ERROR: number of items can't be negative
+
+  
+ERROR: cannot have 0 items
+
+  
+0
+
+  
+Nothing; there is no print statement to display average.
+
+ 
+Question 7
+5.2 / 5.2 pts
+When a file has been opened using the 'r' mode specifier, which method will return the file's contents as a string?
+  
+get
+
+  
+input
+
+  
+write
+
+  
+read
+
+ 
+Question 8
+5.2 / 5.2 pts
+Which method could be used to convert a numeric value to a string?
+  
+str
+
+  
+value
+
+  
+num
+
+  
+chr
+
+ 
+Question 9
+5.2 / 5.2 pts
+Which method could be used to strip specific characters from the end of a string?
+  
+estrip
+
+  
+strip
+
+  
+rstrip
+
+  
+remove
+
+ 
+Question 10
+5.2 / 5.2 pts
+Which method will return an empty string when it has attempted to read beyond the end of a file?
+  
+readline
+
+  
+getline
+
+  
+read
+
+  
+input
+
+ 
+Question 11
+5.2 / 5.2 pts
+Which mode specifier will open a file but not let you change the file or write to it?
+  
+'w'
+
+  
+'r'
+
+  
+'a'
+
+  
+'e'
+
+ 
+Question 12
+5.2 / 5.2 pts
+Which mode specifier will erase the contents of a file if it already exists and create the file if it does not already exist?
+  
+'r'
+
+  
+'e'
+
+  
+'a'
+
+  
+'w'
+
+ 
+Question 13
+5.2 / 5.2 pts
+Which of the following describes what happens when a piece of data is written to a file?
+  
+The data is copied from a file object to a file.
+
+  
+The data is copied from a variable in RAM to a file.
+
+  
+The data is copied from the program to a file.
+
+  
+The data is copied from a variable in the program to a file.
+
+ 
+Question 14
+5.2 / 5.2 pts
+Which of the following is the correct way to open a file named users.txt in 'r' mode?
+  
+infile = read('users.txt', 'r')
+
+  
+infile = readlines('users.txt', r)
+
+  
+infile = open('users.txt', 'r')
+
+  
+infile = open('r', users.txt)
+
+ 
+Question 15
+5.5 / 5.5 pts
+Which of the following is the correct way to open a file named users.txt to write to it?
+  
+outfile = write('users.txt', 'w')
+
+  
+outfile = open('w', users.txt)
+
+  
+outfile = open('users.txt', 'w')
+
+  
+outfile = open('users.txt')
+
+ 
+Question 16
+5.2 / 5.2 pts
+Which of the following is associated with a specific file and provides a way for the program to work with that file?
+  
+the file extension
+
+  
+the file variable
+
+  
+the file object
+
+  
+the filename
+
+ 
+Question 17
+5.2 / 5.2 pts
+Which statement can be used to handle some of the runtime errors in a program?
+  
+an exception handler statement
+
+  
+an exception statement
+
+  
+a try/except statement
+
+  
+a try statement
+
+ 
+Question 18
+5.2 / 5.2 pts
+Which step creates a connection between a file and a program?
+  
+close the file
+
+  
+open the file
+
+  
+read the file
+
+  
+process the file
+
+ 
+Question 19
+5.2 / 5.2 pts
+Which type of file access jumps directly to a piece of data in the file without having to read all the data that comes before it?
+  
+numbered
+
+  
+sequential
+
+  
+random
+
+  
+text
