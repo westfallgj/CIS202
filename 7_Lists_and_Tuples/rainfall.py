@@ -12,13 +12,22 @@
 	    Total, average, highest (name and amount), and lowest (name and amount) months of rainfall.
         IOError and/or ValueError exceptions, when raised.
 """
+import matplotlib.pyplot as plt
 
-# make a list of month names
-# make a list to get the 12 values
+# make a list (or tuple?) of months names
+# make a list to get the 12 values months.append(value)
 # mean() function to get the average
 # min()/max() function will find greatest and least but I need the index
 # use index(MAX or MIN rainfall) to get the index that will = the month
 # print index(MAN or MIN) has the most rain, amount of rain
+# plt.plot(avgRainFall, months)
+# plt.title('Average Rainfall')
+# plt.ylabel('Rainfall (inches))
+# plt.xlabel('Month')
+# plt.xlim() to add space?
+# plt.xticks(create a list of length Month, Months)
+# plt.grid(True)
+plt.show()
 
 '''
 a = [3, 5, 7, 2, 8, 1]
