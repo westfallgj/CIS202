@@ -14,7 +14,41 @@
 """
 import matplotlib.pyplot as plt
 
-# make a list (or tuple?) of months names
+# make a tuple of the months
+months_list = ('January', 'February', 'March', 'April', 'May', 'June',
+            'July', 'August', 'September', 'October', 'November', 'December')
+
+def getInputData():
+
+    try:
+        input_list = []
+        
+        for month in months_list:
+            input_list.append(input("Enter the monthly rainfall for " + month + ":"))
+
+        return input_list
+
+    except ValueError:
+        print("Value error: expected the name of a month (string)")
+
+def findAverage(rainfall_list):
+    average = 0
+
+    for amount in rainfall_list:
+        average += float(amount)
+
+    average = average / len(rainfall_list)
+
+    return average
+
+rainfall_list = getInputData()
+average_rainfall = findAverage(rainfall_list)
+
+print(rainfall_list)
+print("Average rainfall was", round(average_rainfall, 2), "inches.")
+print("The minimum rainfall was", min(rainfall_list))
+print("The maximum rainfall was", max(rainfall_list))
+
 # make a list to get the 12 values months.append(value)
 # mean() function to get the average
 # min()/max() function will find greatest and least but I need the index
