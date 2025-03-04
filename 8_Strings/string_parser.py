@@ -21,7 +21,7 @@ names_list = ()
 sorted_list = ()
 
 def read_input_file():
-    """Gather/Stript/Split input to a list and return."""
+    """Gather/Stript/Split input file to a list and return."""
     try:
         # Open input file
         input_file = open(INPUT_FILE, 'r')
@@ -41,7 +41,7 @@ def read_input_file():
         print("IOError: the input file cannot be found.")
  
 def get_last_name(name_list):
-    """Creates/Returns a last name list"""
+    """Creates/Returns a last name list. given a list of names"""
     return name_list.split()[-1]
 
 # Call to read input file
