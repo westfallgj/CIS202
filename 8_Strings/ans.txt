@@ -1,0 +1,18 @@
+def get_last_name(name):
+    """Function to extract the last name from a full name."""
+    return name.split()[-1]  # Gets the last part of the name
+
+def sort_by_last_name(names):
+    """Sorts names by last name."""
+    name_list = names.split(", ")  # Split names into a list
+    sorted_names = sorted(name_list, key=get_last_name)  # Sort using the function
+
+    # Print sorted names
+    for name in sorted_names:
+        print(name)
+
+# Given string of names
+names = "Rokk Krinn, Imra Ardeen, Garth Ranzz, Luornu Durgo, Tinya Wazzo, Reep Daggle, Gim Allon, Lyle Norg, Querl Dox, Kara Zor-El, Kal El, Jo Nah, Thom Kallor, Salu Digby, Dirk Morgna, Chuck Taine"
+
+# Call the function
+sort_by_last_name(names)
