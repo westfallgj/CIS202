@@ -21,7 +21,17 @@ names_list = ()
 sorted_list = ()
 
 def read_input_file():
-    """Gather/Stript/Split input file to a list and return."""
+    """
+    Reads a single line of x names from (const INPUT_FILE) in the format: "<firstname> <lastname>,"
+    Strips the return (\n)
+    Splits the line string into separate names based on ',' to create a list of names
+    
+        Args:
+            none
+
+        Returns:
+            list of full names
+    """
     try:
         # Open input file
         input_file = open(INPUT_FILE, 'r')
@@ -41,15 +51,26 @@ def read_input_file():
         print("IOError: the input file cannot be found.")
  
 def get_last_name(name_list):
-    """Creates/Returns a last name list. given a list of names"""
+    """
+    Creates a list of last names
+        
+        Args:
+            a list of names to be ordered
+
+        Return: 
+            a list of last names
+    """
     return name_list.split()[-1]
 
-# Call to read input file
-names_list = read_input_file()
-print("Names List", names_list)
+# docstring convention to use help()
+if __name__ == "__main__":
 
-# sort names, using the get_last_name function in the iteration
-sorted_names = sorted(names_list, key=get_last_name)
+    # Call to read input file
+    names_list = read_input_file()
+    print("Names List", names_list)
 
-for name in sorted_names:
-    print(name)
+    # sort names, using the get_last_name function in the iteration
+    sorted_names = sorted(names_list, key=get_last_name)
+
+    for name in sorted_names:
+        print(name)
