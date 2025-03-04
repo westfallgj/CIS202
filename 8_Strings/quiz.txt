@@ -1,0 +1,209 @@
+Question 1
+If the start index is __________ the end index, the slicing expression will return an empty string.
+
+equal to
+
+less than
+
+less than or equal to
+
+greater than
+
+ 
+Question 2
+What are the valid indexes for the string 'New York'?
+
+-1 through -8
+
+-1 through 6
+
+0 through 8
+
+0 through 7
+ 
+Question 3
+What is the first negative index in a string?
+
+0
+
+the size of the string minus one
+
+-1
+
+-0
+
+ 
+Question 4
+What is the return value of the string method lstrip()?
+
+the string with all leading tabs removed
+
+the string with all leading whitespaces removed
+
+the string with all leading spaces removed
+
+the string with all whitespaces removed
+
+ 
+Question 5
+What list will be referenced by the variable list_strip after the following code executes?
+my_string = '03/07/2018'
+list_strip = my_string.split('/')
+
+['3', '/', '7', '/', '2018']
+
+['3', '7', '2018']
+
+['03', '07', '2018']
+
+['03', '/', '07', '/', '2018']
+
+ 
+Question 6
+What will be assigned to the variable s_string after the following code executes?
+special = '1357 Country Ln.'
+s_string = special[5:]
+
+' Country Ln.'
+
+'1357'
+
+'Coun'
+
+' ountry Ln.'
+
+ 
+Question 7
+What will be assigned to the variable s_string after the following code executes?
+special = '1357 Country Ln.'
+s_string = special[-3:]
+
+'135'
+
+'753'
+
+'y Ln'
+
+'Ln.'
+ 
+Question 8
+What will be assigned to the variable some_nums after the following code executes?
+special = '0123456789'
+some_nums = special[0:10:2]
+
+'24682468'
+
+'02020202020202020202'
+
+'02468'
+
+'0123456789'
+ 
+Question 9
+What will be assigned to the string variable pattern after the following code executes?
+i = 3
+pattern = 'z' * (5 * i)
+
+'zzzzz'
+
+Nothing; this code is invalid
+
+'zzzzzzzzzzzzzzz'
+
+'z * 15'
+ 
+Question 10
+What will be assigned to the variable s_string after the following code executes?
+special = '1357 Country Ln.'
+s_string = special[ :4]
+
+'1357'
+
+'7 Country Ln.'
+
+5
+
+'7'
+
+ 
+Question 11
+What will be displayed after the following code executes?
+mystr = 'yes'
+yourstr = 'no'
+mystr += yourstr * 2
+print(mystr)
+
+yesnono
+
+yes + no yes + no
+
+yesnoyesno
+
+yes + no * 2
+
+ 
+Question 12
+What will be the value of the variable string after the following code executes?
+string = 'Hello'
+string += 'world!'
+
+' world!'
+
+'Hello'
+
+'Hello world!'
+
+'Helloworld!'
+
+ 
+Question 13
+What will be the value of the variable string after the following code executes?
+string = 'abcd'
+string.upper()
+Group of answer choices
+
+'ABCD'
+
+'Abcd'
+
+Nothing; this code is invalid
+
+'abcd'
+
+ 
+Question 14
+What will display after the following code executes?
+password = 'ILOVEPYTHON'
+if password.isalpha():
+    print('Invalid, must contain one number.')
+elif password.isdigit():
+    print('Invalid, must have one non-numeric character.')
+elif password.isupper():
+    print('Invalid, cannot be all uppercase characters.')
+else:
+    print('Your password is secure!')
+
+Your password is secure!
+
+Invalid, must contain one number.
+Invalid, cannot be all uppercase characters.
+
+Invalid, must have one non-numeric character.
+
+Invalid, must contain one number.
+ 
+Question 15
+Which method would you use to determine whether a certain substring is the suffix of a string?
+
+find(substring)
+endswith(substring)
+replace(string, substring)
+startswith(substring)
+
+Question 16
+Which method would you use to determine whether a certain substring is present in a string?
+
+find(substring)
+endswith(substring)
+startswith(substring)
+replace(string, substring)
