@@ -67,10 +67,16 @@ if __name__ == "__main__":
 
     # Call to read input file
     names_list = read_input_file()
-    print("Names List", names_list)
+    print()
+    print("Names List") 
+    print(names_list)
+    print()
 
     # sort names, using the get_last_name function in the iteration
     sorted_names = sorted(names_list, key=get_last_name)
 
+    print("Ordered Names List")
     for name in sorted_names:
-        print(name)
+        first_name, last_name = name.split()
+        print(f"{last_name}, {first_name}", end="; ")
+    print()

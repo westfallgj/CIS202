@@ -1,0 +1,119 @@
+1. Accessor methods are also known as
+
+setters
+attributes
+X getters
+instances
+
+2. Combining data and code in a single object is known as
+
+instantiation
+x encapsulation
+objectification
+modularity
+
+3. In object-oriented programming, one of first tasks of the programmer is to
+
+identify the objects needed
+x identify the classes needed
+list the methods that are needed
+list the nouns in the problem
+
+4. Mutator methods are also known as
+
+x setters
+instances
+attributes
+getters
+
+5. The procedures that an object performs are called
+
+actions
+x methods
+instances
+modules
+
+6. What is the special name given to the method that returns a string containing an object's state?
+
+__obj__
+x __str__
+__state__
+__init__
+
+7. What type of method provides a safe way for code outside a class to retrieve the values of attributes, without exposing the attributes in a way that could allow them to be changed by code outside the method?
+Group of answer choices
+
+mutator
+class
+setter
+x accessor
+
+8. What type of programming contains class definitions?
+
+top-down
+procedural
+x object-oriented
+modular
+
+9. When an object is passed as an argument, __________ is passed into the parameter variable.
+
+x a reference to the object
+a reference to the object's state
+Objects cannot be passed as arguments.
+a copy of the object
+
+10. Which attributes belong to a specific instance of a class?
+
+object
+self
+x instance
+data
+
+11. Which is the first line needed when creating a class named Worker?
+
+x class Worker:
+def worker_pay(self):
+import random
+def__init__(self):
+
+12. Which method is automatically called when you pass an object as an argument to the print function?
+
+__init__
+x __str__
+__obj__
+__state__
+
+13. Which method is automatically executed when an instance of a class is created in memory?
+
+__str__
+X __init__
+__obj__
+__state__
+
+14. Which of the following will create an object, worker_joey, of the Worker class?
+
+x worker_joey = Worker()
+def__init__(worker_joey):
+class worker_joey:
+worker_joey.Worker
+
+15.Which of the following can be thought of as a self-contained unit that consists of data attributes and the methods that operate on the data attributes?
+
+x an object
+a class
+a module
+an instance
+
+16. Which section in the UML holds the list of the class's methods?
+
+x third section
+first section
+second section
+fourth section
+
+17. Which section in the UML holds the list of the class's data attributes?
+
+first section
+x second section
+third section
+fourth section
