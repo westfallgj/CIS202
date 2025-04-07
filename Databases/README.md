@@ -15,3 +15,26 @@ Then use an SQL query in python to:
 The example in the screenshot is when the user selects 2000
 
 The output of query would be as follows ![alt text](DatabasesScreenshot.jpg)
+
+Databases Overview
+
+Objectives
+
+Course Objectives
+6. Brief intro to working with databases in Python
+
+Unit Objectives
+1. Opening and closing a database connection
+2. create and delete tables
+3. Query tables
+4. Add data to a table
+
+Preparation
+1. Please review the PowerPoints below (Optional)
+2. Watch all the videos below
+3. Review the Python source code below
+
+Learning Activities (graded)
+1. Complete Databases hw in this folder (meets unit objectives 1, 2 and 3)
+2. No Quiz for this Chapter. This chapter is not included in the final exam
+3. Complete Discussion 10
