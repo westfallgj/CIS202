@@ -132,7 +132,7 @@
 *   Primary keys must hold a value (cannot be `NULL`) [13].
 *   Each row's primary key value must be unique within the table [13].
 *   A table can have only one primary key, but it can be a **composite key** consisting of two or more columns combined to ensure uniqueness [13].
-*   In SQLite, tables automatically have an `INTEGER` column named `rowid` which is autoincremented [13]. When you define an `INTEGER PRIMARY KEY` column, it becomes an alias for the `rowid` column [13].
+*   In SQLite, tables automatically have an `INTEGER` column named `rowid` which is auto incremented [13]. When you define an `INTEGER PRIMARY KEY` column, it becomes an alias for the `rowid` column [13].
 *   You can designate any data type of column as a primary key, but be sure to use the `NOT NULL` constraint [13]. For non-integer primary keys, you must provide a unique, non-null value when inserting rows [13].
 
 ### 17. Handling Database Exceptions in SQLite: [14]
