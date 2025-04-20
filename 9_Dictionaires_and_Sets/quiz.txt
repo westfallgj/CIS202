@@ -1,0 +1,149 @@
+1. In a dictionary, you use a(n) __________ to locate a specific value.
+
+X key
+item
+element
+datum
+
+2. In order to avoid KeyError exceptions, you can check whether a key is in the dictionary using the __________ operator.
+
+isnotin
+X in
+included
+isin
+
+3. What does the get method do if the specified key is not found in the dictionary?
+
+It throws an exception.
+It does nothing.
+X It returns a default value.
+You cannot use the get method to specify a key.
+
+4. What is the correct structure to create a dictionary of months where each month will be accessed by its month number (for example, January is month 1, April is month 4)?
+
+{ 1, 2,... 12 : 'January', 'February',... 'December' }
+[ '1' : 'January', '2' : 'February', ... '12' : 'December' ]
+X { 1 : 'January', 2 : 'February', ... 12 : 'December' }
+{ 1 ; 'January', 2 ; 'February', ... 12 ; 'December'}
+
+5. What is the number of the first index in a dictionary?
+
+the size of the dictionary minus one
+0
+X Dictionaries are not indexed by number.
+1
+
+6. What is the process used to convert an object to a stream of bytes that can be saved in a file?
+
+streaming
+writing
+X pickling
+dumping
+
+7. What is the value of the variable phones after the following code executes?
+phones = {'John' : '5555555', 'Julie' : '5557777'}
+phones['John'] = '5556666'
+
+{'John' : '5556666'}
+{'John' : '5555555', 'Julie' : '5557777'}
+X {'John' : '5556666', 'Julie' : '5557777'}
+This code is invalid.
+
+8. What values will d2 contain after the following code executes?
+                                d = {1: 10, 2: 20, 3: 30}
+                                d2 = {k:v for k,v in d.items()}
+
+{10: 1, 20: 2, 30: 3}
+X {1: 10, 2: 20, 3: 30}
+{10: 10, 20: 20, 30: 30}
+{1: 1, 2: 2, 3: 3}
+
+9. What will be displayed after the following code executes? 
+(Note: the order of the display of entries in a dictionary are not in a specific order.)
+cities = {'GA' : 'Atlanta', 'NY' : 'Albany', 'CA' : 'San Diego'}
+if 'FL' in cities:
+    del cities['FL']
+    cities['FL'] = 'Tallahassee'
+print(cities)
+
+X {'CA': 'San Diego', 'NY': 'Albany', 'GA': 'Atlanta'}
+KeyError
+{'FL': 'Tallahassee'}
+{'CA': 'San Diego', 'NY': 'Albany', 'GA': 'Atlanta', 'FL' 'Tallahassee'}
+
+10. What will be displayed after the following code executes? 
+(Note: the order of the display of entries in a dictionary are not in a specific order.)
+cities = {'GA' : 'Atlanta', 'NY' : 'Albany', 'CA' : 'San Diego'}
+if 'FL' in cities:
+    del cities['FL']
+cities['FL'] = 'Tallahassee'
+print(cities)
+
+X {'GA': 'Atlanta', 'FL': 'Tallahassee', 'NY': 'Albany', 'CA': 'San Diego'}
+{'FL': 'Tallahassee'}
+KeyError
+{'CA': 'San Diego', 'NY': 'Albany', 'GA': 'Atlanta'}
+
+11. What will be displayed after the following code executes? 
+(Note: the order of the display of entries in a dictionary are not in a specific order.)
+cities = {'GA' : 'Atlanta', 'NY' : 'Albany', 'CA' : 'San Diego'}
+if 'CA' in cities:
+    del cities['CA']
+    cities['CA'] = 'Sacramento'
+print(cities)
+
+{'NY': 'Albany', 'GA': 'Atlanta'}
+['CA': 'Sacramento']
+{'CA': 'Sacramento'}
+X {'CA': 'Sacramento', 'NY': 'Albany', 'GA': 'Atlanta'}
+
+What will be the result of the following code?
+ages = {'Aaron' : 6, 'Kelly' : 3, 'Abigail' : 1 }
+value = ages['Brianna']
+
+X KeyError
+0
+False
+-1
+
+13. Which method can be used to add a group of elements to a set?
+
+addset
+addgroup
+X update
+add
+
+14. Which method would you use to get the value associated with a specific key and remove that key-value pair from the dictionary?
+
+popitem
+list
+X pop
+items
+
+15. Which method would you use to get all the elements in a dictionary returned as a list of tuples?
+
+list
+X items
+pop
+keys
+
+16. Which of the following does not apply to sets?
+
+All the elements must be unique; you cannot have two elements with the same value.
+The stored elements can be of different data types.
+X The elements are in pairs.
+The elements are unordered.
+
+17. Which would you use to get the number of elements in a dictionary?
+
+length
+X len
+sizeof
+size
+
+18. Which would you use to delete an existing key-value pair from a dictionary?
+
+remove
+unpair
+delete
+X del
