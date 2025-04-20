@@ -1,0 +1,7 @@
+We are looking at 2 data structures in Python: Dictionaries and Sets. These structures provide a way to organizing and manipulating collections of data.
+
+With regular Dictionaries each entry is identified by a unique term or label, which then points directly to the associated information. Python dictionaries operate on a similar principle, they store data as key-value pairs. The "key" serves as a unique identifier and the "value" represents the corresponding information. This key-value relationship allows for rapid retrieval of data based on the key. 
+
+Now consider a collection of items where each element is unique; a collection of distinct symbols, like an alphabet. This is the concept behind a Python set. It is an unordered collection that contains only unique elements. Sets are useful for tasks such as determining membership – checking if a specific element exists within the collection – or for eliminating duplicate entries from a sequence.
+
+Both dictionaries and sets are useful; Dictionaries excel in requiring efficient data lookup via unique keys, while Sets are valuable when dealing with collections of unique items and the need for rapid membership checks.
