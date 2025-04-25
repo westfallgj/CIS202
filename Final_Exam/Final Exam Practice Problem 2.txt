@@ -1,0 +1,1 @@
+Read all the numbers in the attached file into a list. Find the total, and maximum of all numbers the display them to 2 decimal places (total will be 150 maximum 30). Display all the unique sales values in the list (20 and 30) by using a set. Make sure to remove all the trailing newlines when displaying the set  if needed. 
